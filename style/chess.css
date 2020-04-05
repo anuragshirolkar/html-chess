@@ -1,0 +1,55 @@
+body {
+    background-color: black;
+    color: white;
+}
+  
+.board-container {
+  width: 1000px;
+}
+
+.panel {
+    vertical-align: top;
+}
+
+.white-cell {
+    background-color: rgb(200, 200, 200);
+}
+
+.black-cell {
+    background-color: rgb(100,100,100);
+}
+
+.selected-cell {
+    background-color: rgb(150, 125, 100);
+}
+
+.accessible-white-cell {
+    background-color: rgb(200, 255, 200);
+}
+
+.accessible-black-cell {
+    background-color: rgb(100, 155, 100);
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+}
+
+.header-cell {
+    width: 100px;
+    height: 10px;
+    color: white;
+    text-align: center;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.index-cell {
+    width: 10px;
+    height: 100px;
+    color: white;
+    vertical-align: center;
+}
